@@ -136,30 +136,36 @@ int main(){
     printf("PIB per Capita: R$ %.2f \n", Pib_per_capita2);
     printf("Super Poder: %.3f\n", SuperPoder2);
 
-    // Abaixo será exibido o resultado da comparação entre as duas cartas. Valor "0" é resultado falso e "1" é verdadeiro.
+    /*
+    
+    Abaixo será exibido o resultado da comparação entre as duas cartas. Valor "0" é resultado falso e "1" é verdadeiro.
+    Cada "Atributo" possui uma condição a ser testada com sinais "<>".
+    
+    */
 
-    printf("\n--- Carta1 vs Carta 2: --- \n");
+    printf("\n--- Comparação entre Carta 1 e Carta 2 ---\n");
+    printf("\nLegenda: 0 = Perdeu         1 = Venceu\n");
 
-    printf("\nPopulação (Carta 1): %dpulacao > Populacao2);
-    printf("População (Carta 2):\n"), Populacao < Populacao2;
+    printf("\nPopulação (Carta 1): %d \n",Populacao > Populacao2);
+    printf("População (Carta 2): %d \n", Populacao < Populacao2);
 
-    printf("\nPontos turísticos (Carta 1):\n", Pontos_turisticos > Pontos_turisticos2);
-    printf("Pontos turísticos (Carta 2):\n", Pontos_turisticos < Pontos_turisticos2);
+    printf("\nPontos turísticos (Carta 1): %d \n", Pontos_turisticos > Pontos_turisticos2);
+    printf("Pontos turísticos (Carta 2): %d \n", Pontos_turisticos < Pontos_turisticos2);
 
-    printf("\nÁrea (Carta 1):\n", area > area2);
-    printf("Área (Carta 2):\n", area < area2);
+    printf("\nÁrea (Carta 1): %d \n", area > area2);
+    printf("Área (Carta 2): %d \n", area < area2);
 
-    printf("\nPIB (Carta 1):\n", pib > pib2);
-    printf("PIB (Carta 2):\n", pib < pib2);
+    printf("\nPIB (Carta 1): %d \n", pib > pib2);
+    printf("PIB (Carta 2): %d \n", pib < pib2);
 
-    printf("\nDensidade populacional (Carta 1):\n", Densidade_populacional < Densidade_populacional2);
-    printf("Densidade populacional (Carta 2):\n", Densidade_populacional > Densidade_populacional2);
+    printf("\nDensidade populacional (Carta 1): %d \n", Densidade_populacional < Densidade_populacional2);
+    printf("Densidade populacional (Carta 2): %d \n", Densidade_populacional > Densidade_populacional2);
 
-    printf("\nPIB per Capita (Carta 1)\n", Pib_per_capita > Pib_per_capita2);
-    printf("PIB per Capita (Carta 2)\n", Pib_per_capita < Pib_per_capita2);
+    printf("\nPIB per Capita (Carta 1): %d \n", Pib_per_capita > Pib_per_capita2);
+    printf("PIB per Capita (Carta 2): %d \n", Pib_per_capita < Pib_per_capita2);
 
-    printf("\nSuper Poder (Carta 1)\n", SuperPoder > SuperPoder2);
-    printf("Super Poder (Carta 2)\n", SuperPoder < SuperPoder2);
+    printf("\nSuper Poder (Carta 1): %d \n", SuperPoder > SuperPoder2);
+    printf("Super Poder (Carta 2): %d \n", SuperPoder < SuperPoder2);
 
     
     
